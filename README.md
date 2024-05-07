@@ -5,16 +5,16 @@ For Creating Server
 1) npm init -y
 2) npm install -D tailwindcss postcss autoprefixer vite
 
-3) change following file tailwind.config.js to this
+3) npx tailwindcss init -p
+
+4) for run, change test name according to you (For vite)
+
+5) change following file tailwind.config.js to this
 content: ["*"],
 
-4) craate new css file and paste this
+6) craate new css file and paste this
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-5) npx tailwindcss init -p
-
-6) for run, change test name according to you
-npm run call
+7) npm run call
