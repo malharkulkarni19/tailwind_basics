@@ -18,3 +18,4 @@ content: ["*"],
 @tailwind utilities;
 
 7) npm run call
+8) End
